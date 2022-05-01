@@ -153,7 +153,7 @@ type BuildingPermitsJsonRecords []struct {
 }
 
 ///////////////////////////////////////////////////////////////////////////////////////
-///////////////////////////////////////////////////////////////////////////////////////
+//////////////////////////////////////////////////////////////////////////////////////
 
 func main() {
 
@@ -233,7 +233,7 @@ func GetTaxiTrips(db *sql.DB) {
 	// Get your geocoder.ApiKey from here :
 	// https://developers.google.com/maps/documentation/geocoding/get-api-key?authuser=2
 
-	geocoder.ApiKey = "AIzaSyCBwDSatp3974JcYxuRKVHQRqf2c_AG76w"
+	geocoder.ApiKey = "AIzaSyCHHJnheZiESnP90wECE0z0CaM-ANUjcDs"
 
 	drop_table := `drop table if exists taxi_trips`
 	_, err := db.Exec(drop_table)
